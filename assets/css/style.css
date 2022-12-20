@@ -32,3 +32,25 @@ body {
   color: red;
   font-weight: 700;
 }
+
+
+#herogrid {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 75% 25%;
+  grid-template-areas: 
+  "mypic secondPic" 
+  "mypic thirdPic";
+}
+********
+#mypic {
+  grid-area: mypic;
+  background-image: url(..assets/images/02-portfolio-4.jpg);
+}
+
+
+
+
