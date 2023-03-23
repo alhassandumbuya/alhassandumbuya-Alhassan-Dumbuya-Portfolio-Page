@@ -79,6 +79,28 @@ header nav ul li a:hover  {
 }
 
 
+/* About Me */
+
+.about-me h2 {
+    font-size: xx-large;
+    color: var(--secondary-color);
+    border-right: var(--secondary-color) solid 3px;
+    padding: 0 15px;
+    text-align: right;
+}
+.about-me {
+    flex: 1 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+     margin-bottom: 15px;
+}
+.content {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%
+}
 
 
 
@@ -90,6 +112,9 @@ header nav ul li a:hover  {
 
 
 
+
+
+/* 
 
 
 
@@ -166,5 +191,5 @@ header nav ul li a:hover  {
   align-items: center;
   display: flex;
   position: relative;
-}
+} */
 
