@@ -1,14 +1,97 @@
 body {
   font-family: "Times New Roman", Times, serif;
 }
-
-#navBar {
-  display: flex;
-  flex-direction: row;
-  margin: 0px 5%;
-  color: blue;
-  background-color: rgb(55, 54, 57);
+section {
+    padding: 35px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 35px 50px;
+    align-items: center;
+    background-color: rgb(55, 54, 57);
+}
+
+.navBar {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--accent-clr);
+  height: 100%;
+}
+#navBar h1 {
+  cursor: grab;
+  width: 25%;
+  color: green;
+  font-weight: 500;
+}
+
+#navigation {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: right;
+  list-style: none;
+}
+
+#navigation p {
+  cursor: grab;
+  text-decoration: underline;
+}
+
+
+
+h1 a {
+    color: #000;
+}
+
+header nav ul li a:hover  {
+    border-bottom : none;
+    color: #000;
+}
+
+.hero {
+    background: url(../images/02-hero-bg.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.hero img {
+    width: 250px;
+}
+
+.picture {
+    width: 100%;
+    text-align: right;
+}
+
+.hero h2 {
+    color: white;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #navBar h1 {
   cursor: grab;
@@ -19,9 +102,10 @@ body {
 
 #navigation {
   display: flex;
-  width: 70%;
+  width: 100%;
   align-items: flex-end;
   justify-content: space-evenly;
+  text-align: right;
 }
 
 #navigation p {
